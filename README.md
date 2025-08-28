@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <!-- Header principal -->
+  <!-- Header -->
   <header>
     <h1 id="primero">Minecraft Fest</h1>
     <nav>
@@ -19,21 +19,20 @@
     </nav>
   </header>
 
-  <!-- Main del sitio -->
+  <!-- Main -->
   <main>
     <div id="principal">
-      <!-- Subtítulo Auspiciantes -->
+      <!-- Auspiciantes -->
       <h2 id="segundo">Auspiciantes</h2>
-
-      <!-- Logos de los auspiciantes -->
       <div id="Auspiciantes">
-        <img src="ps5_logo.png" alt="PS5">
-        <img src="microsoft_logo.png" alt="Microsoft">
-        <img src="mojang_logo.png" alt="Mojang">
-        <img src="otro_patrocinador.png" alt="Otro Patrocinador">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/PlayStation_5_logo.svg" alt="PS5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+        <img src="https://seeklogo.com/vector-logo/405297/mojang-logo-4EEA4DB676-seeklogo.com.png" alt="Mojang">
+        <img src="https://via.placeholder.com/150" alt="Otro Patrocinador">
       </div>
 
-      <!-- Caja Stream -->
+      <!-- Stream -->
+      <h2 id="tercero">Stream</h2>
       <div class="stream">
         <div class="logo">
           <iframe
@@ -48,15 +47,9 @@
         <div class="detalle">
           <h3>Minecraft Fest 2025</h3>
           <p>Únete al evento más épico de Minecraft con actividades, retos y stream en vivo.</p>
-        </div>
-        <div class="participar">
-          <h3><a href="#">Unirme al Stream</a></h3>
+          <h3 class="participar"><a href="#">Unirme al Stream</a></h3>
         </div>
       </div>
-
-      <!-- Subtítulo para Stream -->
-      <h2 id="tercero">Stream</h2>
-
     </div>
   </main>
 
