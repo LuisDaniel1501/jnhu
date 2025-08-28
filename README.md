@@ -1,1 +1,69 @@
-# jnhu
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Fest</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Header principal -->
+  <header>
+    <h1 id="primero">Minecraft Fest</h1>
+    <nav>
+      <ul>
+        <li><a href="#primero">PARTICIPAR</a></li>
+        <li><a href="#segundo">AUSPICIANTES</a></li>
+        <li><a href="#tercero">STREAM</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main del sitio -->
+  <main>
+    <div id="principal">
+      <!-- Subtítulo Auspiciantes -->
+      <h2 id="segundo">Auspiciantes</h2>
+
+      <!-- Logos de los auspiciantes -->
+      <div id="Auspiciantes">
+        <img src="ps5_logo.png" alt="PS5">
+        <img src="microsoft_logo.png" alt="Microsoft">
+        <img src="mojang_logo.png" alt="Mojang">
+        <img src="otro_patrocinador.png" alt="Otro Patrocinador">
+      </div>
+
+      <!-- Caja Stream -->
+      <div class="stream">
+        <div class="logo">
+          <iframe
+            src="https://player.twitch.tv/?channel=roier&parent=tu-dominio.com"
+            height="378"
+            width="620"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen="true">
+          </iframe>
+        </div>
+        <div class="detalle">
+          <h3>Minecraft Fest 2025</h3>
+          <p>Únete al evento más épico de Minecraft con actividades, retos y stream en vivo.</p>
+        </div>
+        <div class="participar">
+          <h3><a href="#">Unirme al Stream</a></h3>
+        </div>
+      </div>
+
+      <!-- Subtítulo para Stream -->
+      <h2 id="tercero">Stream</h2>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Minecraft Fest</p>
+    <p>Este sitio fue creado por Luis Daniel</p>
+  </footer>
+</body>
+</html>
