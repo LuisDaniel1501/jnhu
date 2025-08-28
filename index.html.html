@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minecraft Fest</title>
-  <link rel="stylesheet" href="estilos.css">
+  <title>Minecraft Fest 2025</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header -->
+  <!-- Encabezado -->
   <header>
-    <h1 id="primero">Minecraft Fest</h1>
+    <h1 id="primero">Minecraft Fest 2025</h1>
     <nav>
       <ul>
         <li><a href="#primero">PARTICIPAR</a></li>
@@ -19,35 +19,39 @@
     </nav>
   </header>
 
-  <!-- Main -->
+  <!-- Contenido principal -->
   <main>
     <div id="principal">
-      <!-- Auspiciantes -->
+      <!-- Subtítulo auspiciantes -->
       <h2 id="segundo">Auspiciantes</h2>
-      <div id="Auspiciantes">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/PlayStation_5_logo.svg" alt="PS5">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
-        <img src="https://seeklogo.com/vector-logo/405297/mojang-logo-4EEA4DB676-seeklogo.com.png" alt="Mojang">
-        <img src="https://via.placeholder.com/150" alt="Otro Patrocinador">
+
+      <!-- Caja auspiciantes -->
+      <div id="auspiciantes">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/PlayStation_5_logo_and_wordmark.svg" alt="Patrocinador PS5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Patrocinador Microsoft">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="Patrocinador YouTube">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mojang_Studios_Logo_%282020%2C_full%29.png" alt="Patrocinador Mojang">
       </div>
 
-      <!-- Stream -->
-      <h2 id="tercero">Stream</h2>
-      <div class="stream">
+      <!-- Caja stream -->
+      <div class="stream" id="tercero">
         <div class="logo">
-          <iframe
-            src="https://player.twitch.tv/?channel=roier&parent=tu-dominio.com"
-            height="378"
-            width="620"
-            frameborder="0"
-            scrolling="no"
-            allowfullscreen="true">
-          </iframe>
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Logo Minecraft Fest">
         </div>
         <div class="detalle">
-          <h3>Minecraft Fest 2025</h3>
-          <p>Únete al evento más épico de Minecraft con actividades, retos y stream en vivo.</p>
-          <h3 class="participar"><a href="#">Unirme al Stream</a></h3>
+          <h2>Minecraft Fest 2025</h2>
+          <p>El mayor evento de la comunidad Minecraft: construcciones, PvP y diversión sin límites. ¡No te lo pierdas!</p>
+        </div>
+        <div class="video">
+          <!-- STREAM EN VIVO DE TWITCH -->
+          <iframe
+            src="https://player.twitch.tv/?channel=minecraft&parent=tuusuario.github.io"
+            frameborder="0"
+            allowfullscreen="true"
+            scrolling="no"
+            height="400"
+            width="700">
+          </iframe>
         </div>
       </div>
     </div>
@@ -55,8 +59,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Minecraft Fest</p>
-    <p>Este sitio fue creado por Luis Daniel</p>
+    <p>&copy; 2025 Minecraft Fest</p>
   </footer>
 </body>
 </html>
