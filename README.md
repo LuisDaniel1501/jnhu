@@ -59,7 +59,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Minecraft Fest</p>
+    <p>Desarrolado por Luis</p>
   </footer>
 </body>
 </html>
